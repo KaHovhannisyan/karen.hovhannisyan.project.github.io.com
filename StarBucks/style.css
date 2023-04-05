@@ -1,0 +1,992 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#Nav{
+    width:100%;
+    /* height:100px; */
+    /* border:solid 1px black; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px 20px;
+}
+
+.Conteiner{
+    width:95%;
+    /* height:80px; */
+    /* border:solid 1px red; */
+    display:flex;
+    justify-content:space-between;
+}
+
+.LogoPar{
+    width:25%;
+    /* height:70px; */
+    /* border:solid 1px green;/ */
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.Logo{
+    width:20%;
+    height:50px;
+    /* border:solid 1px; */
+    background-image:url("https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png");
+    background-size:100% 100%;
+    cursor:pointer;
+}
+
+.NavList{
+    width:70%;
+    /* height:50px; */
+    /* border:solid 1px; */
+    display:flex;
+    list-style:none;
+    justify-content:space-around;
+}
+
+.NavList>li>a{
+    text-decoration:none;
+    color:black;
+    display:flex;
+    font-size:15px;
+    margin-top:8px;
+}
+
+.Icons{
+    width:25%;
+    /* height:50px; */
+    /* border:solid 1px green; */
+    display:flex;
+    justify-content:space-between;
+}
+
+.Location{
+    width:33%;
+    height:20px;
+    /* border:solid 1px; */
+    color:black;
+    font-size:28px;
+    font-size:20px;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    margin-top:6px;
+}
+.Location:hover{
+
+    color:green;
+}
+
+#h1{
+    color:black;
+    font-size:15px;
+ 
+}
+
+#h1:hover{
+    color:green
+}
+
+button{
+    width:25%;
+    height:30px;
+    border:solid 1px;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.Join{
+    width:25%;
+    height:30px;
+    border:solid 1px;
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.SectioneOne{
+    width:100%;
+    height:200px;
+    /* border:solid 1px; */
+    background-color:#D4E9E2;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#h2{
+    color:black;
+    text-align:center;
+    font-size:24px;
+}
+
+#h3{
+    color:black;
+    text-align:center;
+    font-size:24px;
+}
+
+.TextOne{
+    width:60%;
+    /* height:90px; */
+    /* border:solid 1px; */
+}
+
+.SectioneTwo{
+    width:100%;
+    height:700px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.TextTwo{
+    width:45%;
+    height:600px;
+    /* border:solid 1px; */
+    background-color:#3D7170;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Coffee{
+    width:45%;
+    height:600px;
+    background-image:url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82556.jpg");
+    background-size:100% 100%;
+}
+
+.TextThree{
+    width:70%;
+    height:500px;
+    /* border:solid 1px; */
+}
+
+#h4{
+    text-align:center;
+    margin-top:50px;
+    font-size:50px;
+    color:white;
+}
+
+#h5{
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+
+#h6{
+    color:white;
+    font-size:24px;
+    text-align:center;
+    margin-top:30px;
+}
+
+#h7{
+    color:white;
+    font-size:24px;
+    text-align:center;
+}
+
+#h8{
+    color:white;
+    font-size:24px;
+    text-align:center;
+}
+
+.Tryitnow{
+    display:block;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.Tryitnow{
+    width:25%;
+    height:35px;
+    /* border:solid 1px; */
+    background-color:white;
+    color:black;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.SectioneThree{
+    width:100%;
+    height:700px;
+    /* border:solid 1px; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.CoffeTwo{
+    width:45%;
+    height:600px;
+    /* border:solid 1px; */
+    background-image:url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82669.jpg");
+    background-size:100% 100%;
+}
+
+.TextFoure{
+    width:45%;
+    height:600px;
+    /* border:solid 1px ; */
+    background-color:#D4E9E2;
+}
+
+#h9{
+    color:black;
+    font-size:50px;
+    text-align:center;
+    margin-top:160px;
+}
+
+#h10{
+    color:black;
+    font-size:24px;
+    text-align:center;
+    margin-top:20px;
+}
+
+#h11{
+    color:black;
+    font-size:24px;
+    text-align:center;
+}
+
+.Order{
+    width:16%;
+    height:40px;
+    border:solid 1px;
+    border-radius:20px;
+    background-color:#D4E9E2;
+    color:black;
+    font-size:15px;
+    cursor:pointer;
+    display:block;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.SectioneFoure{
+    width:100%;
+    height:530px;
+    /* border:solid 1px; */
+    background-color:#3D7170;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Tribute{
+    width:50%;
+    height:475px;
+    /* border:solid 1px; */
+    background-image:url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82722.png");
+    background-size:100% 100%;
+    margin-right:150px;
+
+}
+
+.Taste{
+    width:40%;
+    height:200px;
+    /* border:solid 1px red;  */
+}
+
+#h12{
+    color:white;
+    text-align:center;
+    font-size:24px;
+}
+
+
+#h13{
+    color:white;
+    text-align:center;
+    font-size:24px;
+    margin-top:20px;
+}
+
+#h14{
+    color:white;
+    text-align:center;
+    font-size:24px;
+    margin-top:20px;
+}
+
+.OrderTwo{
+    width:20%;
+    height:40px;
+    background-color:#3D7170;
+    color:white;
+    cursor:pointer;
+    display:block;
+    margin:0 auto;
+    margin-top:30px;
+    font-size:16px;
+}
+
+.SectioneFive{
+    width:100%;
+    height:200px;
+    border:solid 1px;
+    background-color:#D4E9E2;
+}
+
+#h15{
+    color:black;
+    font-size:24px;
+    text-align:center;
+    margin-top:20px;
+}
+
+#h16{
+    color:black;
+    font-size:19px;
+    margin-top:10px;
+    text-align:center;
+}
+
+.SectioneSix{
+    width:100%;
+    height:600px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+.AboutUs{
+    width:14%;
+    height:500px;
+    /* border:solid 1px red; */
+}
+
+#h17{
+    color:black;
+    font-size:26px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h18{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h18:hover{
+    color:black;
+}
+
+#h19:hover{
+    color:black;
+}
+
+#h20:hover{
+    color:black;
+}
+
+#h21:hover{
+    color:black;
+}
+
+#h22:hover{
+    color:black;
+}
+
+#h23:hover{
+    color:black;
+}
+
+#h19{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h20{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h21{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h22{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+
+
+#h23{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+
+.Careers{
+    width:14%;
+    height:500px;
+    /* border:solid 1px red; */
+}
+
+#h24{
+    color:black;
+    font-size:26px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h24:hover{
+    color:black;
+}
+#h25:hover{
+    color:black;
+}
+#h26:hover{
+    color:black;
+}
+#h27:hover{
+    color:black;
+}
+#h28:hover{
+    color:black;
+}
+#h29:hover{
+    color:black;
+}
+#h30:hover{
+    color:black;
+}
+#h31:hover{
+    color:black;
+}
+#h32:hover{
+    color:black;
+}
+#h33:hover{
+    color:black;
+}
+#h34:hover{
+    color:black;
+}
+#h35:hover{
+    color:black;
+}
+#h36:hover{
+    color:black;
+}
+#h37:hover{
+    color:black;
+}
+#h38:hover{
+    color:black;
+}
+
+#h25{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h26{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h27{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h28{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h29{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h30{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h31{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h32{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+
+.Social{
+    width:14%;
+    height:500px;
+    /* border:solid 1px red; */
+}
+
+#h33{
+    color:black;
+    font-size:26px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h34{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h35{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h36{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h37{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+.Business{
+    width:14%;
+    height:500px;
+    /* border:solid 1px red; */
+}
+
+#h38{
+    color:black;
+    font-size:26px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h39:hover{
+    color:black;
+}
+
+#h39:hover{
+    color:black;
+}
+
+#h40:hover{
+    color:black;
+}
+
+#h41:hover{
+    color:black;
+}
+
+#h42:hover{
+    color:black;
+}
+
+#h43:hover{
+    color:black;
+}
+
+#h39{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h40{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h41{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h42{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h43{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+.Pickup{
+    width:14%;
+    height:500px;
+    /* border:solid 1px red; */
+}
+
+#h44{
+    color:black;
+    font-size:26px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h45{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h46{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h47{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h48{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h49{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#h50{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h51{
+    color:#6B6B6B;
+    font-size:20px;
+    margin-left:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+#h44:hover{
+    color:black;
+}
+
+#h45:hover{
+    color:black;
+}
+
+#h46:hover{
+    color:black;
+}
+
+#h47:hover{
+    color:black;
+}
+
+#h48:hover{
+    color:black;
+}
+
+#h49:hover{
+    color:black;
+}
+
+#h50:hover{
+    color:black;
+}
+
+#h51:hover{
+    color:black;
+}
+
+.SectioneIcons{
+    width:100%;
+    height:500px;
+    /* border:solid 1px; */
+}
+
+.SectioneIconsPar{
+    width:18%;
+    height:70px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-around;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.Spotify{
+    font-size:30px;
+    cursor:pointer;
+}
+
+
+.Fcebook{
+    font-size:30px;
+    cursor:pointer;
+}
+
+.Pinterest{
+    font-size:30px;
+    cursor:pointer;
+}
+
+.Instagram{
+    font-size:30px;
+    cursor:pointer;
+}
+
+.Youtube{
+    font-size:30px;
+    cursor:pointer;
+}
+
+.Twiter{
+    font-size:30px;
+    cursor:pointer;
+}
+
+.CoffeeCompany{
+    width:70%;
+    height:130px;
+    /* border:solid 1px; */
+    margin-left:20px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.DivOne{
+    width:28%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+.DivTwo{
+    width:28%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+.DivThree{
+    width:40%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+.DivFoure{
+    width:28%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+.DivFive{
+    width:28%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+#h52{
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.LineOne{
+    width:60%;
+    height:2px;
+    /* border:solid 1px; */
+    background-color:black;
+    margin-left:10px;
+    display:none;
+}
+
+.LineOne:hover{
+    display:none;
+}
+
+#h53{
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.LineTwo{
+    width:60%;
+    height:2px;
+    /* border:solid 1px; */
+    background-color:black;
+    margin-left:10px;
+    display:none;
+}
+
+.LineTwo:hover{
+    display:none;
+}
+
+#h54{
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.LineThree{
+    width:60%;
+    height:2px;
+    /* border:solid 1px; */
+    background-color:black;
+    margin-left:10px;
+    display:none;
+}
+
+.LineThree:hover{
+    display:none;
+}
+
+#h55{
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.LineFoure{
+    width:60%;
+    height:2px;
+    /* border:solid 1px; */
+    background-color:black;
+    margin-left:10px;
+    display:none;
+}
+
+.LineFoure:hover{
+    display:none;
+}
+
+#h56{
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.LineFive{
+    width:60%;
+    height:2px;
+    /* border:solid 1px; */
+    background-color:black;
+    margin-left:10px;
+    display:none;
+}
+
+.LineFive:hover{
+    display:none;
+}
+
+.BigLine{
+    width:80%;
+    height:1px;
+    border:solid 1px ;
+    background-color:#E5E5E5;
+ 
+}
+
