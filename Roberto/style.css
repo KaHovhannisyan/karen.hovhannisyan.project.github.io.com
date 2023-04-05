@@ -1,0 +1,896 @@
+*{
+    padding:0;
+    margin:o;
+}
+
+#Nav{
+    width:100%;
+    /* height:100px; */
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.Conteiner{
+    width:90%;
+    /* height:80px; */
+    /* border:solid 1px red; */
+    display:flex;
+    justify-content:space-between;
+}
+
+.NavList{
+    width:50%;
+    /* height:70px; */
+    /* border:solid 1px green; */
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    margin-top:45px;
+}
+
+.NavList>li>a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+}
+
+.Logo{
+    color:black;
+    font-size:50px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.SectioneOne{
+    width:100%;
+    height:650px;
+    border:solid 1px;
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/486798ed-450e-41eb-854e-b1b6a657bae4_main-banner-hp-fw22-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneTwo{
+    width:100%;
+    height:80px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Text{
+    width:60%;
+    height:50px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-around;
+}
+
+.TextOne{
+    width:30%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+.Line{
+    width:75%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:3px;
+    cursor:pointer;
+}
+
+.LineOne{
+    width:75%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:3px;
+    cursor:pointer;
+}
+
+.TextTwo{
+    width:30%;
+    height:50px;
+    /* border:solid 1px; */
+}
+
+#h3{
+    color:#000000;
+    font-size:19px;
+    text-align:center;
+}
+
+#h4{
+    color:#000000;
+    font-size:19px;
+    text-align:center;
+}
+
+.SectioneThree{
+    width:100%;
+    height:850px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+
+.ImgOne{
+    width:50%;
+    height:850px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/3c6bc417-16ce-4537-b8b6-fd1d47968195_banner-categori-hp-fw22-women-desk.jpg");
+    background-size:100% 100%;
+
+}
+
+.ImgTwo{
+    width:50%;
+    height:850px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/2e45e319-6cd8-402b-8f63-e1e9073adde7_banner-categori-hp-fw22-men-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneFoure{
+    width:100%;
+    height:140px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+}
+
+.CollectionPar{
+    width:84%;
+    height:180px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin-top:18px;
+}
+
+.CollectionOne{
+    width:40%;
+    height:120px;
+    /* border:solid 1px; */
+}
+
+.CollectionTwo{
+    width:40%;
+    height:120px;
+    /* border:solid 1px; */
+}
+
+#h5{
+    color:#000000;
+    font-size:28px;
+    text-align:center;
+    margin-top:8px;
+}
+
+#h6{
+    color:#000000;
+    font-size:18px;
+    text-align:center;
+    margin-top:18px;
+}
+
+.LineTwo{
+    width:45%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+#h7{
+    color:#000000;
+    font-size:28px;
+    text-align:center;
+    margin-top:8px;
+}
+
+#h8{
+    color:#000000;
+    font-size:18px;
+    text-align:center;
+    margin-top:18px;
+}
+
+.LineThree{
+    width:45%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.SectioneFive{
+    width:100%;
+    height:600px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+.ImgThree{
+    width:50%;
+    height:600px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/4c558c13-e348-489b-a26d-db28babd4492_banner-cat-hp-fw22-w-bags-desk.jpg");
+    background-size:100% 100%;
+}
+
+.ImgFoure{
+    width:50%;
+    height:600px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/9158af44-862a-46e5-bda6-dccad3c75397_banner-cat-hp-fw22-m-acc-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneSix{
+    width:100%;
+    height:190px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.BaggPar{
+    width:80%;
+    height:150px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+}
+
+.Accesories{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.Bags{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+#h9{
+    columns:#000000;
+    font-size:28px;
+    text-align:center;
+}
+
+#h10{
+    color:#000000;
+    font-size:18px;
+    text-align:center;
+    margin-top:18px;
+}
+
+.LineFoure{
+    width:45%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+
+#h11{
+    columns:#000000;
+    font-size:28px;
+    text-align:center;
+}
+
+#h12{
+    color:#000000;
+    font-size:18px;
+    text-align:center;
+    margin-top:18px;
+}
+
+.LineFive{
+    width:45%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.SectioneSeven{
+    width:100%;
+    height:600px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/2b11015c-d05c-47cb-b7ff-e7e443e4961b_slider-prod1-hp-fw22-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneEight{
+    width:100%;
+    height:100px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#h13{
+    color:#000000;
+    font-size:23px;
+    cursor:pointer;
+}
+
+.SectioneNine{
+    width:100%;
+    height:450px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+.Jewellery{
+    width:50%;
+    height:450px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/fcac35e5-559b-42e5-a7b8-27774a0c4e9c_banner-cat-hp-fw22-w-jew-desk.jpg");
+    background-size:100% 100%;
+}
+
+.Shoes{
+    width:50%;
+    height:450px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/068b8ba9-4954-4ab9-84af-e715b585f100_banner-cat-hp-fw22-m-shoes-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneTen{
+    width:100%;
+    height:150px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Ten{
+    width:70%;
+    height:100px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+}
+
+.JewelleryPar{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+#h14{
+    text-align:center;
+    font-size:28px;
+    color:#000000;
+}
+
+#h15{
+    color:#000000;
+    font-size:18px;
+    text-align:center;
+    margin-top:18px;
+}
+
+.LineSix{
+    width:55%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.ShoesPar{
+    width:30%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+#h16{
+    text-align:center;
+    font-size:28px;
+    color:#000000;
+}
+
+#h17{
+    color:#000000;
+    font-size:18px;
+    text-align:center;
+    margin-top:18px;
+}
+
+.LineSeven{
+    width:55%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.SectioenEleven{
+    width:100%;
+    height:600px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/aaf94445-e64d-40b1-ac38-3d7070b35ff0_main-banner-landing-junior-fw22-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneTwelve{
+    width:100%;
+    height:200px;
+    /* border:solid 1px; */
+    display:flex;
+   justify-content:center;
+}
+
+.SectioneTwelvePar{
+    width:30%;
+    height:60px;
+    /* border:solid 1px; */
+    margin-top:15px;
+}
+
+#h18{
+    color:#000000;
+    font-size:28px;
+    text-align:center;
+}
+
+.ShopPar{
+    width:100%;
+    height:100px;
+    /* border:solid 1px; */
+    margin:0 auto;
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.ShopGirl{
+    width:45%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+.ShopBoy{
+    width:45%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+#h19{
+    color:#000000;
+    font-size:19.2px;
+    text-align:center;
+    margin-top:10px;
+}
+
+.LineEight{
+    width:90%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+#h20{
+    color:#000000;
+    font-size:19.2px;
+    text-align:center;
+    margin-top:10px;
+}
+
+.LineNine{
+    width:90%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.Sectionethree{
+    width:100%;
+    height:700px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+.NkarMek{
+    width:50%;
+    height:700px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/2b54e382-4007-4c73-87e9-935a664f105f_banner-landing-junior-fw22-girls-desk.jpg");
+    background-size:100% 100%;
+}
+
+.NkarErku{
+    width:50%;
+    height:700px;
+    /* border:solid 1px; */
+    background-image:url("https://www.robertocavalli.com/BWStaticContent/39000/0b523d3f-a4f3-458f-b09b-8c7fe508b337_banner-landing-junior-fw22-boys-desk.jpg");
+    background-size:100% 100%;
+}
+
+.SectioneForteen{
+    width:100%;
+    height:140px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:center;
+}
+
+.Shoping{
+    width:60%;
+    height:100px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.Girls{
+    width:35%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+#h21{
+    color:#000000;
+    font-size:28px;
+    text-align:center;
+    margin-top:10px;
+}
+
+#h22{
+    color:#000000;
+    font-size:19.2px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.LineTen{
+    width:90%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.Boys{
+    width:35%;
+    height:100px;
+    /* border:solid 1px; */
+}
+
+#h23{
+    color:#000000;
+    font-size:28px;
+    text-align:center;
+    margin-top:10px;
+}
+
+#h24{
+    color:#000000;
+    font-size:19.2px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.LineEleven{
+    width:90%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin:0 auto;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.MecGic{
+    width:100%;
+    height:2px;
+    /* border:solid 1px; */
+    background-color:#DFC8B7;
+}
+
+.Footer{
+    width:100%;
+    height:250px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+.FooterOne{
+    width:50%;
+    height:500px;
+    /* border:solid 1px; */
+    display:flex;
+    justify-content:space-around;
+    margin-top:90px;
+    margin-left:70px;
+}
+
+.FooterTwo{
+    width:50%;
+    height:500px;
+    /* border:solid 1px; */
+    margin-top:90px;
+    margin-left:99px;
+}
+
+.Contact{
+    width:35%;
+    height:450px;
+    /* border:solid 1px; */
+}
+
+.Store{
+    width:25%;
+    height:90px;
+    /* border:solid 1px; */
+}
+
+.Corporate{
+    width:30%;
+    height:400px;
+    /* border:solid 1px; */
+}
+
+#h25{
+    column-rule:#8D8D8D;
+    font-size:11px;
+}
+
+#h26{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h27{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h28{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h29{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h30{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h31{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h32{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h33{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+#h34{
+    column-rule:#8D8D8D;
+    font-size:11px;
+    text-align:center;
+}
+
+#h35{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h36{
+    column-rule:#8D8D8D;
+    font-size:11px;
+    text-align:center;
+}
+
+#h37{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h38{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h39{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h40{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h41{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h42{
+    color:#000000;
+    font-size:10px;
+    margin-top:30px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h43{
+    color:#000000;
+    font-size:18px;
+    margin-left:50px;
+}
+
+#h44{
+    color:#000000;
+    font-size:18px;
+    margin-left:50px;
+}
+
+#h45{
+    color:#000000;
+    font-size:12px;
+    margin-left:50px;
+    margin-top:30px;
+}
+
+.On{
+    width:70%;
+    height:80px;
+    /* border:solid 1px; */
+    display:flex;
+}
+
+
+.IconPar{
+    width:60%;
+    height:80px;
+    /* border:solid 1px; */
+    margin:0 auto;
+    margin-top:30px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.IconOne{
+    width:8%;
+    height:18px;
+    /* border:solid 1px; */
+    background-color:#000000;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+#h46{
+    color:#000000;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.IconTwo{
+    width:8%;
+    height:18px;
+    /* border:solid 1px; */
+    background-color:#000000;
+    color:white;
+    text-align:center;
+}
+
+#h47{
+    color:#000000;
+    font-size:12px;
+    cursor:pointer;
+}
+
+#h48{
+    color:#000000;
+    margin-left:120px;
+    font-size:12px;
+}
+
+#h49{
+    color:#000000;
+    margin-left:260px;
+    font-size:12px;
+}
+
+.Gic{
+    width:13%;
+    height:0px;
+    border:solid 1px;
+    background-color:#000000;
+    margin-left:265px;
+    cursor:pointer;
+}
+
+#h50{
+    color:#000000;
+    margin-left:222px;
+    font-size:12px;
+}
+
